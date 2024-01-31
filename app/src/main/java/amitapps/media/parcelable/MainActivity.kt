@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.btn.setOnClickListener {
             val intent = Intent(this, MainActivity2::class.java)
-            intent.putExtra("data", DataParcelable("Amit", 24))
+            intent.putExtra("data", DataParcelable("Amit", 23))
             startActivity(intent)
         }
     }
